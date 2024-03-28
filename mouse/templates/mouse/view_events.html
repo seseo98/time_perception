@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Events</title>
+</head>
+<body>
+    <h1>Recent Mouse Events</h1>
+    <ul>
+        {% for event in events %}
+        <li>{{ event.event_type }} at ({{ event.x }}, {{ event.y }}) - {{ event.timestamp }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
