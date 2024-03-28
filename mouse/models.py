@@ -18,3 +18,5 @@ class MouseEvent(models.Model):
 
 #     def __str__(self):
 #         return f"{self.key} at {self.timestamp}"
+    
+    
